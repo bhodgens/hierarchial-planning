@@ -1,0 +1,6 @@
+{
+  "rpc": { "socket": "SOCKET_PLACEHOLDER" },
+  "data_dir": "STATE_DIR_PLACEHOLDER",
+  "transcript": { "enabled": true, "summarize_enabled": true },
+  "skills": { "enabled": true }
+}
