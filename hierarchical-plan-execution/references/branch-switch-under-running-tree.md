@@ -1,3 +1,7 @@
+# Bbranch switch under running tree
+When to use: commit lands on an unexpected branch mid-tree.
+Lesson: never switch back; keep committing; tell the user; reconcile at the integration gate.
+
 # Branch switched under a running plan tree (shared checkout)
 
 ## The shape (meept, transcript-large-corpus tree, 2026-09-06)

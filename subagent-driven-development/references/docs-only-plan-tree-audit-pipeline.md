@@ -1,7 +1,10 @@
 # Docs-Only Plan-Tree Audit-Fix-Verify Pipeline
 
+When to use: a full audit-fix pass over a docs-only plan tree (no code exists).
+Lesson: 5 parallel audits, dependency-ordered fixes, then SPLIT verifiers separate fixing from judging.
+
 Full-project review where the deliverable IS the documentation (plan trees,
-orchestrator docs, research YAML) — no code exists. Proven end-to-end on a
+orchestrator docs, research YAML)  -  no code exists. Proven end-to-end on a
 30-file plan tree: 5 parallel audits → direct + delegated fixes → 2 parallel
 verifiers, all majors resolved.
 
@@ -12,7 +15,7 @@ verifiers, all majors resolved.
 - Pre-dispatch audit of a plan tree before executing it (cheaper than fixing
   leaf agents that built against contradictory specs).
 
-## Phase 1 — Parallel Audits (one subagent per section)
+## Phase 1  -  Parallel Audits (one subagent per section)
 
 Split by tree section (root+research, branch A, branch B, ...), one
 delegate_task each. Every audit context MUST say:
@@ -29,11 +32,11 @@ what every consumer reads), (2) decisions recorded in one file but never
 propagated to contracts/open-questions upstream, (3) handoffs where branch N
 writes only to a store branch N+1 is forbidden to read.
 
-## Phase 2 — Fix Ordering
+## Phase 2  -  Fix Ordering
 
 Fix in dependency order:
 1. **Root contract + authority files directly** (master.md, source-truth.yaml)
-   — everything depends on them; verify mechanically after (yaml parse +
+    -  everything depends on them; verify mechanically after (yaml parse +
    required-keys script).
 2. **Branch fixers in parallel**, each with: the exact numbered fix list from
    the audits (file:line, old→new), the already-fixed upstream facts ("do not
@@ -42,7 +45,7 @@ Fix in dependency order:
 3. Accept cross-branch single-line additions (a fixer may add one CLI spec to
    a sibling branch's doc if named explicitly).
 
-## Phase 3 — Verification (split to avoid timeout)
+## Phase 3  -  Verification (split to avoid timeout)
 
 A monolithic verifier over 30 files WILL time out at 600s (~50 tool calls).
 Dispatch TWO verifiers with disjoint checklists and instruct targeted grep,
@@ -61,7 +64,7 @@ Expect one residual per verifier; fix directly (<10 lines) and confirm by grep.
 - **Contract schema drift**: authority YAML renamed/restructured without
   updating the contract that specifies it (or vice versa).
 - **Cross-boundary store mismatch**: producer writes to Postgres while
-  consumer's architecture says "parquet/DuckDB inputs only" — needs an export
+  consumer's architecture says "parquet/DuckDB inputs only"  -  needs an export
   step assigned to a named leaf.
 - **Status tables lag reality**: deliverables committed but tables say PENDING.
 - **Arithmetic at operating point**: window sizes that can't feed the estimation

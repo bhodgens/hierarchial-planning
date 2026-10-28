@@ -1,5 +1,8 @@
 # Post-Subagent Review Checklist
 
+When to use: after any subagent returns completed code, before committing.
+Lesson: stat the files, read the summary, spot-check conventions, run the suites and lint, fix, then stage exact paths - one commit per leaf.
+
 After a subagent returns completed code, run this checklist before committing.
 
 ## 1. Verify the Output
@@ -24,13 +27,13 @@ cd sidecar && go test ./... -short -race -count=1
 
 The project's pre-commit hook runs 9 checks. The most common blocker:
 
-- **U1000 (unused code)**: subagents often leave dead variables or unused functions. **Always remove the dead code** — never add `//nolint:U1000`. The hook correctly rejects nolint on unused vars.
+- **U1000 (unused code)**: subagents often leave dead variables or unused functions. **Always remove the dead code**  -  never add `//nolint:U1000`. The hook correctly rejects nolint on unused vars.
 
 Other checks run automatically on `git commit`. Look for:
-- `mutexio` — I/O under a held mutex
-- `gosec` — security vulnerabilities
-- `predid` — time-based IDs
-- `vet` — go vet failures
+- `mutexio`  -  I/O under a held mutex
+- `gosec`  -  security vulnerabilities
+- `predid`  -  time-based IDs
+- `vet`  -  go vet failures
 
 ## 4. Verify UE5 C++ Code (No Engine Available)
 

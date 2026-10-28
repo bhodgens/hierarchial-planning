@@ -1,5 +1,8 @@
 # Ops & Asset Pipeline Plan Trees
 
+
+When to use: tree dispatches agents running shell/API/download work, not code.
+Lesson: same tree shape with manifest.json tracking and files-exist verification.
 ## When This Pattern Applies
 
 When the plan tree dispatches agents that execute **shell commands, API calls,

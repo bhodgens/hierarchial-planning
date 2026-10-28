@@ -1,3 +1,7 @@
+# Qquickplan tree execution 2026 09 09
+When to use: quickplan tree + M4 smokes.
+Lesson: scratch-daemon config traps (hujson, rest BOOL, dev-key), corpus fix, taxonomy inventory.
+
 # QuickPlan tree execution + M4 smokes (2026-09-09)
 
 Session detail for the quickplan-mode tree (4 leaves, all first-try clean,

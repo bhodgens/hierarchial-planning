@@ -1,3 +1,7 @@
+# Ddirect single leaf execution
+When to use: dispatched onto ONE leaf as implementer.
+Lesson: leaf-doc guardrails as contract, TDD RED evidence, verbatim contract sourcing, no-commit rule.
+
 # Direct single-leaf execution (implementer role)
 
 When the dispatch puts YOU on one leaf — "Implement ALL tasks from

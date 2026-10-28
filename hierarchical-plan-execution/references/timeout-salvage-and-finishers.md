@@ -1,3 +1,7 @@
+# Ttimeout salvage and finishers
+When to use: salvaging timed-out leaves.
+Lesson: finisher dispatch pattern.
+
 # Timeout Salvage & Finisher Dispatch
 
 Pattern proven across the 2026-08-23 rebellion sessions (plans-combat-audit,

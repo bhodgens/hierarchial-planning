@@ -1,3 +1,7 @@
+# Ppitfall double dispatch leaf race
+When to use: re-dispatch while the first dispatch still runs.
+Lesson: double-dispatch leaf race and the one-writer rule.
+
 # Pitfall: Double-Dispatch Leaf Race (re-dispatch while first dispatch still runs)
 
 Observed 2026-09-01 (meept llm-resilience-forest, tree 01 leaf 04): a leaf

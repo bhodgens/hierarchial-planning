@@ -1,5 +1,8 @@
 # Porting From a Reference Implementation (Sibling Codebase as the Spec)
 
+
+When to use: planning a port of behavior that works in another codebase.
+Lesson: survey the reference checkout first; freeze reference constants verbatim with citations.
 Use when the feature being planned ports behavior that already works in
 another codebase — a sibling agent project (Hermes → meept), an upstream
 CLI, a previous fork. Observed 2026-08-25 (meept oauth-provider tree:

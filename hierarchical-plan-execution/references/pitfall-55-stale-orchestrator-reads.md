@@ -1,3 +1,7 @@
+# Ppitfall 55 stale orchestrator reads
+When to use: orchestrator reads stale state after dispatch.
+Lesson: re-read files after subagent writes; cache invalidation discipline.
+
 # Pitfall 55: Stale Orchestrator Reads After Subagent Dispatch
 
 ## Problem

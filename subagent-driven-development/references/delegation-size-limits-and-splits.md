@@ -1,5 +1,8 @@
 # Delegation size limits, split dispatches, and salvage (2026-08-23, rebellion tree 30)
 
+When to use: a dispatch nears the delegation time cap or spans two language trees.
+Lesson: split into parallel single-half dispatches with the shared schema pinned in both briefs, and salvage timed-out partial work from disk before re-dispatching.
+
 Session evidence for dispatch-shape rules that apply to ANY multi-language
 plan-tree execution. Observed across 9 leaf dispatches in one session.
 

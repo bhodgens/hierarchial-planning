@@ -1,5 +1,8 @@
 # Research-Gated Plan Trees
 
+
+When to use: project feasibility is unproven (novel hypothesis, unverified APIs).
+Lesson: spike leaf gates adapter branches; GO/NO-GO with real observed wire shapes.
 Pattern for hierarchical plans where PROJECT FEASIBILITY is unproven:
 novel statistical hypothesis, many unverified external APIs, unknown
 literature, or data availability that decides the architecture. Extends

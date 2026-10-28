@@ -1,3 +1,7 @@
+# Sspec test expectation mismatches
+When to use: spec expectation vs implementation mismatch.
+Lesson: normative text wins; hand-trace + master-doc grep; adjust fixture not expectation.
+
 # Spec Test Expectation vs Implementation Mismatches
 
 > Worked example for leaf implementation. When implementing from a spec that

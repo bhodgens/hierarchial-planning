@@ -1,3 +1,7 @@
+# Ssubagent dispatch sizing
+When to use: sizing dispatches to the timeout.
+Lesson: 4 of 7 dispatches timed out: sizing heuristics and split points.
+
 # Subagent Dispatch Sizing & Shared Files
 
 Hard-won from executing tree 30 (water/shores/swim, 8 leaves) in the

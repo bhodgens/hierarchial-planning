@@ -1,3 +1,7 @@
+# Lleaf execution pitfalls
+When to use: leaf-doc overrides, shared checkouts, TDD RED.
+Lesson: core leaf-execution pitfall bank.
+
 # Leaf-Execution Pitfalls: Leaf-Doc Overrides, Shared Checkouts, TDD RED
 
 Lessons from executing plan-tree leaves (originally leaf 06,

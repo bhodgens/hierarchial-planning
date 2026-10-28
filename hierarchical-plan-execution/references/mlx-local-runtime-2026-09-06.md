@@ -1,3 +1,7 @@
+# Mmlx local runtime 2026 09 06
+When to use: MLX runtime restoration.
+Lesson: remap EVERY fixed port (lsof first), LFM tool-call shim, health-gate spawns, LoRA adapters are the artifact.
+
 # MLX Restoration: Local Runtimes, Port Collisions, LFM Tool-Call Parsing (2026-09-06)
 
 Follow-up session to meept-execution-receipts.md. Covers the MLX platform

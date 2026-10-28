@@ -1,3 +1,7 @@
+# Oorchestrator sibling tree race
+When to use: sibling orchestrator racing the same tree.
+Lesson: detect, divide, or yield.
+
 # Pitfall: Sibling orchestrator racing the SAME plan tree (orchestrator side)
 
 Observed 2026-09-02 (meept llm-resilience-forest tree-03): this orchestrator

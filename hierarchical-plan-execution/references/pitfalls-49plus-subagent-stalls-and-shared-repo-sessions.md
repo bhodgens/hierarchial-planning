@@ -1,3 +1,7 @@
+# Ppitfalls 49plus subagent stalls and shared repo sessions
+When to use: subagent stalls + shared-repo sessions.
+Lesson: passive sleep-polling hides dead subagents; small-subset recovery.
+
 # Pitfall 49+: Subagent Stalls, Small-Subset Recovery, and Shared-Repo Concurrent Sessions
 
 Session-derived pitfalls from meept unified-theming (2026-08-25). These

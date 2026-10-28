@@ -1,3 +1,7 @@
+# Pprovider degraded verification
+When to use: verification during provider quota degradation.
+Lesson: symptom signatures, escalating cooldowns, degraded-is-not-green, no assertion weakening.
+
 # Verifying chat-harness fixes when the provider quota-degrades (zai / agnes free tier)
 
 ## 2026-09-06 correction: "degradation" includes successful-but-wrong verdicts
@@ -80,3 +84,10 @@ capture server proving [Recent session activity] block reaches the wire
 and contextless requests stay byte-identical). Acceptance runs remained
 IN_PROGRESS pending a stable provider window, honestly recorded in the
 tracking table with per-run evidence.
+
+## Provider windows open on their own schedule
+
+Provider windows open on their own schedule (overnight); a bounded number of
+escalating cooldowns beats infinite short cycles, and after ~3
+same-attribution failures the attribution itself must be audited (see
+references/forensic-run-attribution.md).

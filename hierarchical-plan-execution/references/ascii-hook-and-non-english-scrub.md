@@ -1,3 +1,7 @@
+# Aascii hook and non english scrub
+When to use: content-pattern hooks + non-English scrub.
+Lesson: census before policy, staged-file scanning, one-for-one translations, grep your own hook.
+
 # Non-English character scrub + ascii pre-commit hook (meept, 2026-09-05)
 
 ADDENDUM (2026-09-08, classifier campaign): a multilingual TEST CORPUS is

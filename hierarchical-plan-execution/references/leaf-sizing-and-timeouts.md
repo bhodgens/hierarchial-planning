@@ -1,3 +1,7 @@
+# Lleaf sizing and timeouts
+When to use: sizing leaves against subagent timeouts.
+Lesson: wall-clock budgets, split heuristics, timeout history.
+
 # Leaf Sizing vs the Subagent Timeout (tree-30 lessons, 2026-08-23; tree-28 corroboration 2026-08-23; meept tier-3 tree 2026-08-22)
 
 > 2026-08-24 note: the wall-clock cap is GONE (`delegation.child_timeout_seconds=0` since 2026-08-23), so classic timeouts should no longer occur — but every salvage rule below still applies verbatim to `status=failed`, missing summaries, and silent long-runners, because the summarization/report step remains the fragile part of any dispatch. See "Orchestrator-side wait discipline" at the bottom for the no-cap era's real constraint: orchestrator budget, not child time.

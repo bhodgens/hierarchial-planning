@@ -1,5 +1,8 @@
 # Gap-Analysis-Driven Forest Pattern
 
+
+When to use: external engineering report to triage then build.
+Lesson: parallel per-area analysis, SUPERIOR/PARITY/GAP verdicts, pre-authoring Q&A, then a forest.
 ## When to Use
 
 User provides an external engineering report (competitor analysis, leaked source

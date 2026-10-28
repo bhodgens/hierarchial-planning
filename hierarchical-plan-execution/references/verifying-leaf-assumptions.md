@@ -1,3 +1,7 @@
+# Vverifying leaf assumptions
+When to use: leaf-embedded claims are hypotheses.
+Lesson: discovery pass before tests; leaf-side denials propagate, never re-attempt a denied class.
+
 # Verifying Leaf Assumptions Before Implementation
 
 Leaf/planning documents state facts about the codebase that were written at

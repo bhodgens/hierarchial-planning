@@ -1,3 +1,7 @@
+# Ssubagent dispatch discipline
+When to use: dispatching implementation subagents.
+Lesson: pin context not just goals; proven dispatch rules from rebellion trees.
+
 # Subagent Dispatch Discipline — lessons from live tree execution (trees 29/30)
 
 Orchestrator-side rules for dispatching implementation subagents against

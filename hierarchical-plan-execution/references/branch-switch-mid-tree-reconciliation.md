@@ -1,3 +1,7 @@
+# Bbranch switch mid tree reconciliation
+When to use: sibling flipped the shared checkout mid-tree.
+Lesson: reconcile without stomping: ancestry checks, cherry-pick at gate.
+
 # Branch Switch and Shared-Index Hazards Mid-Tree (2026-09-06)
 
 Session evidence: transcript-large-corpus tree executed while a sibling

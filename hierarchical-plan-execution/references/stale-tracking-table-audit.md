@@ -1,3 +1,7 @@
+# Sstale tracking table audit
+When to use: tracking table diverges from reality.
+Lesson: audit table vs disk and branch state before resuming a tree.
+
 # Stale Tracking Table Audit
 
 > The highest-leverage time saver in plan execution. A 5-minute audit can

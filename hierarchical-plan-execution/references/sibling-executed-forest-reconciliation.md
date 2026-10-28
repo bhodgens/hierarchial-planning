@@ -1,3 +1,7 @@
+# Ssibling executed forest reconciliation
+When to use: a sibling executed your forest.
+Lesson: reconciliation walkthrough from llm-resilience-forest.
+
 # Sibling-Executed Forest Reconciliation (worked instance: meept llm-resilience-forest, 2026-09-01)
 
 ## Situation

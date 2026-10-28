@@ -1,5 +1,8 @@
 # Multi-Tree Forest Pattern — Worked Example (`plans-glm/`)
 
+
+When to use: authoring 5-12 plan trees in one session.
+Lesson: SHARED-CONVENTIONS.md and OPEN-QUESTIONS.md siblings, inline-vs-separate leaf decision.
 > Session: 2026-07-19, Rebellion game project.
 > Task: author hierarchical implementation plans for all 12 systems in the
 > build-plan-index, in one session, under `plans-glm/`.

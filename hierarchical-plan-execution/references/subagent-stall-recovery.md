@@ -1,3 +1,7 @@
+# Ssubagent stall recovery
+When to use: stalled wave subagents.
+Lesson: small-subset re-dispatch and salvage.
+
 # Subagent Stall Recovery & Small-Subset Dispatching
 
 Source: meept unified-theming execution (2026-08-25). Two wave subagents —

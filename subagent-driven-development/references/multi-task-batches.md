@@ -1,5 +1,8 @@
 # Multi-Task Batches With Independent File Sets
 
+When to use: several distinct user workstreams run in one session via parallel subagents.
+Lesson: batch by file set with one writer per file, queue follow-ups instead of touching a running agent files, and guard protected literals and sourced tables.
+
 Pattern for orchestrating several distinct user workstreams (e.g. "update the
 marketing site, rename product wording through the docs tree, and edit the
 README") in a single session using parallel subagents.
@@ -11,7 +14,7 @@ than sequential single dispatches. Each array entry gets its own isolated
 subagent with its own terminal session. On this account the concurrent-child
 limit is 10 and nested orchestration is enabled (max_spawn_depth=3).
 
-## Race rule — one writer per file
+## Race rule  -  one writer per file
 
 Two subagents must never hold the same file open for writing.
 
@@ -35,7 +38,7 @@ Subagents have zero conversation memory. Every dispatch must carry in
 
 - Absolute file paths (never "the site files").
 - The exact source-of-truth documents to read fully before writing.
-- Literal URLs (repo remote, doc links) — do not make the subagent guess
+- Literal URLs (repo remote, doc links)  -  do not make the subagent guess
   `github.com/<org>/<repo>`.
 - Explicit DO-NOT-TOUCH lists: historical dirs (`docs/plans/`,
   `docs/auto-analysis/`, `docs/research/`, `docs/generated/`), binary/command
@@ -74,7 +77,7 @@ traceable source. Rules:
   source matrix where products overlap; for products the matrix does not
   cover, derive from the cell's own prose (concrete shipped capability =
   complete; "optional"/"not implemented"/"no X" → partial/nonexistent) and
-  never inflate the home column — mark the home product partial where the
+  never inflate the home column  -  mark the home product partial where the
   source matrix itself marks it partial.
 
 ## Verification sweep after both agents land

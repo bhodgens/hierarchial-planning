@@ -1,3 +1,7 @@
+# Ooutcome loop and tfidf veto 2026 09 10
+When to use: outcome-loop tree + tfidf-veto closure.
+Lesson: L1-L4 schema/observer/harvest leaves, plan-dir name collision check, hujson traps.
+
 # Outcome-loop tree execution + tfidf-veto closure (2026-09-10)
 
 Session: authored + executed the classifier-outcome-loop tree (L1-L4)

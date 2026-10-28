@@ -1,3 +1,7 @@
+# Sself poisoning home fixture
+When to use: test seeds the real user tier via HOME.
+Lesson: t.Setenv HOME before the first writer op; sandbox HOME-derived discovery.
+
 # Self-poisoning $HOME test fixtures (tier-resolved writers)
 
 ## The failure (meept skill_create_tool_test.go, 2026-09-06)

@@ -1,3 +1,7 @@
+# Sshared checkout contention
+When to use: subagent file loss in shared checkouts.
+Lesson: contention mechanics and prevention.
+
 # Shared-Checkout Subagent File Loss (meept-proven)
 
 When several Hermes sessions work the same repo checkout concurrently, subagent

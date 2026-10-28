@@ -1,5 +1,8 @@
 # Tests-First Gate — full recipe
 
+
+When to use: every code plan tree's mandatory pre-implementation test phase.
+Lesson: test-leaf shape, coverage matrix, control-agent delta protocol, RED validation.
 Mandatory phase for every CODE plan tree: implement the full unit + e2e test
 suite for a branch BEFORE dispatching that branch's implementation leaves.
 Authored 2026-10-24 at user direction. SKILL.md §"Tests-First Gate" carries the

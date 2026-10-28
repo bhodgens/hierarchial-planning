@@ -1,3 +1,7 @@
+# Oorchestrated leaf commit hygiene
+When to use: committing leaves in shared hot files.
+Lesson: wait/commit-together/hunk-filter options; hook bypass recorded, never silent.
+
 # Orchestrated-Leaf Commit Hygiene in Shared Hot Files
 
 Lessons from a 10-leaf parallel execution (meept chat-dispatch-ux, 2026-09-04)

@@ -1,5 +1,8 @@
 # Parallel sibling-leaf contracts + autonomous-run probe discipline
 
+
+When to use: byte-layout contracts across parallel sibling leaves.
+Lesson: exact shapes in consuming briefs, foreign-reader round-trip, probe-test discipline.
 Lessons from an 8-leaf tree (classi-fly, 2026-09-11) executed in 3 waves with
 parallel dispatch. All patterns are class-level; proven once, cheap to reuse.
 

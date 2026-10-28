@@ -1,3 +1,7 @@
+# Pproxmox cluster deployment 2026 09 10
+When to use: post-campaign deployment to Proxmox.
+Lesson: fix-wave 429 storms, SSH consent-class routing via scripts, PVE API walls.
+
 # Post-campaign deployment to a Proxmox cluster (2026-09-10, humanplusone → totem cluster)
 
 Session continuation after the openbot-parity campaign: the platform itself

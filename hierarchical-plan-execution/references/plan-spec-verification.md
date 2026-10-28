@@ -1,3 +1,7 @@
+# Pplan spec verification
+When to use: leaf documents contain wrong assumptions.
+Lesson: verify spec claims against the codebase before implementing (Pitfall 27 worked example).
+
 # Plan Spec Verification — When Leaf Documents Get Signatures Wrong
 
 > Worked example for Pitfall 27 in hierarchical-plan-execution. A plan tree's

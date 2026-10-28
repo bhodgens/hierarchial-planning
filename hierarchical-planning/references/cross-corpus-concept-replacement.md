@@ -1,5 +1,8 @@
 # Cross-Corpus Concept Replacement
 
+
+When to use: sweeping design change touching a concept across the whole corpus.
+Lesson: parallel digest subagents categorize hits, then one verified batch apply (Pitfall 23 recipe).
 > Recipe for sweeping design changes that touch a concept appearing across the
 > entire corpus — "this is third-person now, not first-person", "rename all
 > instances of X to Y", "cut feature Z everywhere". See SKILL.md Pitfall 23.

@@ -1,8 +1,13 @@
 # Plan-tree authoring checklist (Pitfalls 21-29, 38-39, 42 quick run)
 
-Moved out of SKILL.md (2026-09-11) to keep SKILL.md under the 100K cap.
+
+When to use: post-authoring review of any plan tree.
+Lesson: quick run of pitfalls 21-29, 38-39, 42 as checkboxes alongside the compliance scan.
 Run this checklist after authoring any tree, alongside
 `scripts/check_template_compliance.py` (structural scan, Pitfall 20).
+Companion files: `references/checklist-additions-session-tail.md`
+(structural/dispatch/GDScript items merged from the deleted SKILL.md
+session-diary tail, 2026-10-26).
 
 - [ ] Frozen contracts (structs, constant tables, threshold enums) quote the spec source at the definition site (`// SPEC (file:line, [STATUS]): <text>`) so paraphrase-drift is diffable (Pitfall 21)
 - [ ] For forests or plans with paraphrased contracts: contract-verification digest subagents dispatched post-authoring (Review Protocol §"Contract Verification Digests")

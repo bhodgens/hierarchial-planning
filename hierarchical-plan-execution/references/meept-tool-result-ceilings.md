@@ -1,3 +1,7 @@
+# Mmeept tool result ceilings
+When to use: agent-loop result ceilings bind plan docs.
+Lesson: file-backed ingest and in-tool map-reduce as the two routing patterns.
+
 # Meept agent-loop result ceilings and the two routing patterns (2026-09-06)
 
 Constants that bind (internal/agent/loop.go:3210-3226, verified this

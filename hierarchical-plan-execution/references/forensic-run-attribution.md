@@ -1,3 +1,7 @@
+# Fforensic run attribution
+When to use: e2e failures blamed on the provider.
+Lesson: read-only forensics on the kept workdir; one case study overturned a 12-run attribution.
+
 # Forensic verification of e2e failure attributions — run 10 case study
 
 Session context: a 12+ run e2e campaign where failures were attributed to

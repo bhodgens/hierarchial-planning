@@ -1,5 +1,8 @@
 # Changelog-Review Digests (Tier-3 Verification)
 
+
+When to use: tier-3 verification for design drift caused by sibling sessions.
+Lesson: one subagent cross-references changelog entries against plan spec sources before execution.
 > Recipe for the post-authoring, pre-execution verification tier that catches
 > **design drift caused by sibling sessions**. Run AFTER the structural
 > compliance scan (tier 1) and the contract-verification digests (tier 2).

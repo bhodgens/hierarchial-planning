@@ -1,3 +1,7 @@
+# Mmeept execution receipts
+When to use: meept plan-tree execution receipts.
+Lesson: scratch-daemon config traps, A5 acceptance discipline, cross-session hunk collisions.
+
 # Meept Plan Trees — Execution Receipts and Recurring Pitfalls
 
 Session-specific detail for meept plan-tree execution. The umbrella SKILL.md

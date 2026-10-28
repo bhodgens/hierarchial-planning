@@ -1,3 +1,7 @@
+# Pparallel go leaves entanglement
+When to use: parallel leaves in one Go repo.
+Lesson: entanglement protocol for shared packages.
+
 # Parallel Go Leaves in One Repo — Entanglement Protocol
 
 ## Context

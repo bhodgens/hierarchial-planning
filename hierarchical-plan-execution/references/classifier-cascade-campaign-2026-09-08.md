@@ -1,3 +1,7 @@
+# Cclassifier cascade campaign 2026 09 08
+When to use: staged LLM classifier design + eval.
+Lesson: silver-replay validation, deterministic expected credit, flat-loss triage, OOD abstain accounting.
+
 # Classifier cascade campaign — meept classifier-iteration (2026-09-08)
 
 Distilled technique for building and evaluating staged LLM message

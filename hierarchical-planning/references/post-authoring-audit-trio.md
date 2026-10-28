@@ -1,5 +1,8 @@
 # Post-Authoring Audit Trio (parallel read-only subagents)
 
+
+When to use: after authoring a tree/forest, before dispatching.
+Lesson: parallel citation-drift, architecture-feasibility, and domain-ambiguity audits (tier 4).
 Run after authoring a plan tree/forest, BEFORE dispatching implementation
 agents. Complements the structural compliance scan (tier 1),
 contract-verification digests (tier 2), and changelog-review digests

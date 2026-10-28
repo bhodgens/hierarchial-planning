@@ -1,3 +1,7 @@
+# Cclassifier eval campaign 2026 09 08
+When to use: eval-harness campaign vs a cited baseline.
+Lesson: protocol archaeology when baselines do not reproduce; corpus repair beats gate tuning.
+
 # Classifier Iteration Campaign (2026-09-08) — eval-harness lessons
 
 Session: executed docs/plans/classifier-iteration/master.md (meept, branch

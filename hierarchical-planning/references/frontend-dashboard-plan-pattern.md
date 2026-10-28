@@ -1,5 +1,8 @@
 # Frontend Dashboard Plan Tree Pattern
 
+
+When to use: React/Vite dashboard embedded in a backend binary.
+Lesson: foundation-first concurrency, stub-first typed contracts, TSX in task specs.
 When the plan target is a React (or similar) SPA dashboard embedded in a
 backend binary (Go `//go:embed`, Rust `include_dir!`, etc.). Applies to any
 frontend with a shared-type + hooks foundation consumed by independent view

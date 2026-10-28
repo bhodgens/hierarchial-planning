@@ -1,0 +1,127 @@
+When to use: a lesson seems missing - check here before re-authoring it.
+Lesson: eviction record under canon C1-WritePath; all content intact.
+
+# Archived References (C1-WritePath quarterly eviction, 2026-10-26)
+
+Moved out of the hot INDEX to keep it under the 8,000-byte routing budget.
+Reasons: superseded by a newer campaign file, off-domain (Godot/rebellion), or repo-specific
+(classi-fly/meetp session banks). Files stay here, fully intact, with their C4 headers.
+
+- classi-fly-cli-package-leaf06-2026-09-11.md - CLI + packaging leaf as direct implementer - flag/parse patterns, packaging gates, consent-denial handling leaf-side
+- classi-fly-connectome-ingest-2026-09-11.md - connectome ingest leaf - corpus layout, fixture pinning, ingest-contract verification
+- classi-fly-eval-harness-2026-09-11.md - eval-harness leaf as direct implementer - eval loop scaffolding, consent-gated cleanup, evidence-first reporting
+- classi-fly-flyformat-go-2026-09-11.md - Go binary-format producer + Load/Classify - format pin tests, round-trip fixtures, zero-value discipline
+- classi-fly-training-leaf04-2026-09-11.md - training leaf as direct implementer - head-lr underdose triage, CPU training, quantile tau
+- classi-fly-verification-leaf08-2026-09-11.md - adversarial verification + license audit leaf - run every boundary case a hand-off asserts; PIN-test + inverting repro script shape
+- classifier-campaign-2026-09.md - classifier campaign + quickplan session bank - condensed protocol bank: baseline forensics, data-repair-beats-gate-tuning, split-lr fixes
+- classifier-cascade-and-quickplan-2026-09-08.md - 19-iteration cascade + quickplan iteration - quickplan as 13th intent, FINAL fall-through, normative taxonomy boundary rules
+- classifier-iteration-campaign-2026-09-08.md - classifier-iteration campaign execution - campaign state lives in-repo never in-session; iteration logging discipline
+- colocated-method-decomposition.md - decomposing a large method across leaves - implement plus parallelize tests around extracted seams
+- commit-range-review.md - post-execution regression review of a commit range - per-commit review gate after tree close
+- concurrent-leaf-dispatch.md - dispatching leaves while one is in flight - concurrency-group rules and safe overlap conditions
+- contract-verification-review-discipline-2026-09-05.md - reviewing leaf returns against contracts - verify each contract letter with evidence; review checklist shape
+- data-manifest-fragmentation.md - parallel subagents fragment a data manifest - merge discipline and ownership for manifest files
+- deferred-integration-wiring.md - parallel leaves leave stubs - deferred wiring tracked to a named integration leaf, never silently dropped
+- docs-feature-state-sync.md - docs/README lag shipped features - fold doc regeneration into leaf dispatch contexts
+- e2e-scratch-daemon-leaf.md - leaves verified by live scratch-daemon runs - config traps, health gating, run isolation
+- forest-followups-session-2026-09-02.md - completion-report follow-ups via subagents - F1-F4 fix shapes for forest close-out
+- gdd-completion-worked-example.md - GDD completion execution - doc-fix execution variant worked example
+- gdscript-subagent-review.md - reviewing GDScript from subagents - review patterns for GDScript leaf returns
+- go-embed-llm-prompts.md - embedding LLM prompts in Go binaries - go:embed patterns for prompt assets
+- go-interface-cascade.md - extending a Go interface - cascade of implementers to update; worked example
+- go-multimodule-leaf-playbook.md - leaves in multi-module Go repos - module boundaries, replace directives, per-module gates
+- go-zero-value-traps.md - zero values in injected structs - silent zero-value behavior traps in Go DI shapes
+- godot-gdscript-shader-pitfalls.md - GDScript + shader leaves - engine-version pitfalls for dispatched leaves
+- godot-gut-headless-test-pitfalls.md - GUT tests headless - await/frame pitfalls, scene-tree assumptions
+- godot-gut-headless-testing.md - headless GUT for rebellion-the-game - engine headless flags, GUT CLI invocation, failure triage
+- godot-gut-testing-pitfalls.md - headless testing + Environment resources - resource-path pitfalls in CI runs
+- godot-headless-gut-testing.md - headless + GUT pitfalls (2026-08-07) - exit codes, autoloads, async tests
+- godot-headless-physics-and-gut-async.md - headless physics (Rapier) + GUT async - physics stepping and await patterns headless
+- godot-project-setup.md - Godot project leaves - setup pattern proven in rebellion-the-game
+- gossip-execution-worked-example.md - concrete code-execution workflow model - Rebellion gossip engine session worked example
+- grok-bot-forest-execution-2026-09-06.md - four trees authored and executed in one session - gap analysis to forest to close-out mechanics
+- gut-test-authoring-gotchas.md - GUT tests written by dispatched leaves - authoring gotchas proven on tree-30
+- harness-eval-execution-2026-08-29.md - harness-eval tree orchestrator pitfalls - new pitfalls from a 9-leaf one-session run
+- integration-gate-lint-attribution.md - repo-wide lint gate reports sibling debt - scope lint attribution to your files; record sibling findings, do not fix silently
+- integration-test-scaffolding.md - integration-test leaves - scaffolding pitfalls: fixtures, teardown, port allocation
+- leaf-brief-external-api-drift.md - leaf briefs cite external API docs - verify the docs before writing tests; versions drift
+- leaf-doc-contract-drift.md - leaf code snippets do not match the codebase - verify snippets before implementing; drift is the norm
+- leaf-e2e-verification.md - leaves that smoke the compiled binary - binary mtime vs fix commits; smoke shapes for Go CLIs
+- leaf-pinned-test-impossible-read-path.md - pinned test needs an unreadable path - swap the loader seam, keep the assertions
+- leaf-review-missing-scope.md - tests pass but scope is missing - review for omitted tasks, not just red/green
+- leaf-spec-drift-line-refs.md - leaf line references went stale - verify line anchors before patching
+- leaf-spec-gate-polarity.md - gate polarity vs producer predicate - authoring pitfall: selection predicate inversion
+- leaf-testability-seams.md - legacy handlers need tests - introduce seams without rewrites
+- live-db-migration-and-ingest-contracts.md - green tests, broken production - test migrations against legacy fixtures; contracts name the FULL write path
+- live-e2e-leaves-and-gate-attribution.md - live e2e leaves + gate attribution - patterns from chat-dispatch-ux leaf 10
+- live-seal-validation-and-revision-deadlock.md - live validation of sealed-plan execution - three stacked live-only bugs; re-verify the premise before fixing symptoms
+- live-service-integration.md - leaves integrating with live services - staging vs prod, credential handling, smoke discipline
+- live-smoke-stacked-root-causes.md - live smoke fails 5 times on 5 causes - stacked root causes: rebuild-scratch-binary rule, fake-runner blindness
+- live-tool-path-smoke.md - newly wired tool fails live despite green tests - layered defects above a green tool path
+- llm-json-leniency.md - LLM-generated JSON - leniency pitfalls and strict parse points
+- llm-provider-message-format-quirks.md - provider message formats - quirks that break tool calls or system prompts per provider
+- local-classifier-ab-and-embedding-prefilter-2026-09-06.md - local classifier A/B + embedding prefilter - campaign mechanics and prefilter handoff contract
+- machine-artifacts-in-repo.md - daemons writing into the checkout - machine-generated files vs human git hygiene
+- meept-project-hardening-session.md - project-hardening session record - hardening leaf shapes and gate outcomes
+- meept-unified-theming-completion.md - unified theming completion record - pitfalls-49+ source session
+- multihost-live-verification.md - verification across multiple hosts - orchestrator-side reference compendium for live multihost runs
+- narrow-storer-interface-pattern.md - analysis subpackages need storage - narrow Storer interface pattern
+- openbot-parity-campaign-2026-09-09.md - 10-issue parity campaign full record - 9 waves, zero re-dispatches, final-state verification
+- openbot-parity-campaign-shape.md - issues to frozen-contract wave plans - campaign shape template: contracts in master.md beat prose
+- openbot-parity-continuation-leaves-2026-09-09.md - direct single-leaf continuation sessions - leaves 6.2 and 7.1 execution detail
+- parallel-review-fix-pipeline.md - review to fix pipeline - parallel review with fix dispatches
+- phase2-tree-execution-2026-09-01.md - meept-bench phase-2 tree - regression suite, diff gate, CI, LongMemEval leaves
+- pipeline-composition-leaf.md - pipeline-composition leaves - fixture staging, pyarrow/DuckDB pitfalls
+- post-implementation-review-fix.md - post-implementation review - review and fix pattern after leaves land
+- post-merge-review-and-subagent-recovery.md - post-merge review + subagent recovery - recovery when a merged tree still has failures
+- pre-existing-implementation-recovery.md - an aborted pass already wrote the files - recover instead of redo; verify what exists
+- production-caller-audit.md - components that compile but are never called - production-caller audit before marking wiring leaves complete
+- production-caller-grep.md - isolated-island code - grep for production callers, not just test callers
+- quickplan-cascade-campaign-2026-09.md - 20-iteration quickplan cascade campaign - session-state ceiling: plan evidence lives in orchestrator state, not per-message text
+- quickplan-intent-and-cascade-2026-09-09.md - quickplan as intent + planning mode - plan-clarify-execute shape and cascade integration
+- quickplan-tree-prestate-2026-09-09.md - pre-execution state of the quickplan tree - compliance scan before dispatch
+- reviewing-parallel-tool-leaves.md - orchestrator adjudications across parallel leaves - review discipline for skill-authoring trees
+- sequential-file-edit-clobber.md - scripted edits clobber concurrent writes - execute_code edit races and read-modify-write hygiene
+- session-patterns-meept-bench-2026-09-01.md - orchestration patterns from phase-2 execution - session-learned dispatch and review shapes
+- sibling-forest-concurrent-execution.md - concurrent forest execution by siblings - coordination protocol
+- sibling-orchestrator-forest-execution.md - sibling orchestrators on one forest - shared-repo hazard catalog
+- sibling-session-forest-execution.md - sibling-session forest worked example - llm-resilience-forest execution record
+- single-leaf-decomposition.md - requested parallelism on one leaf - decompose or refuse: single-leaf shapes
+- spec-prose-vs-own-tests.md - leaf spec prose contradicts its tests - which wins and how to adjudicate
+- spec-pseudocode-type-errors.md - leaf Go stubs do not compile - pseudocode-to-Go type errors in specs
+- store-split-plan-visibility.md - dedicated sink store invisible to shared surfaces - store-split visibility failure shape
+- structural-mismatch-verification.md - four structural mismatches in one forest - pre-dispatch verification worked example
+- tokscale-client-addition-checklist.md - adding a client to an exhaustive registry - 15-touchpoint surface: 8 compiler-visible, 7 string-keyed the compiler cannot see
+- verify-only-contracts-and-slot-parallelization.md - verify-only contract tasks - single-slot to parallel state migration; verify-only leaf shapes
+
+## Second cohort (2026-10-26): niche/off-domain/superseded, keeps INDEX under budget
+
+- adjudication-replay-pipeline.md - user-adjudicated gold replay of real traffic - the honest accuracy ruler; sheet workflow, disagreements sorted first; ceiling findings are deliverables not failures
+- adversarial-harness-architecture.md - building an adversarial test harness - architecture reference: attacker/defender split, seeded scenarios, verdict schema
+- adversarial-harness-pattern.md - testing simulation engines - adversarial harness pattern: generate hostile inputs, assert engine invariants hold
+- adversarial-harness-pitfalls.md - wiring an adversarial harness into CI - wiring lessons: async verdict collection, flaky-seed isolation, timeout budgeting
+- adversarial-llm-harness-pattern.md - LLM-driven harness for simulation validation - LLM as adversary: prompt-generated scenarios, structured verdicts, cost caps
+- adversarial-re-review-of-committed-work.md - post-landing re-review of a finished tree - reviewing COMMITTED state is immune to sibling reverts; parallel reviewers with fix authority
+- chat-harness-ux-comparison.md - naive-user transcript vs a reference harness - UX comparison recipe with attribution forensics for verdict mismatches
+- config-gate-wrong-reason-red.md - TDD config gate goes RED for the wrong reason - first RED failing at the control assertion is not a mechanism test
+- cross-repo-bench-daemon-failure-chains.md - bench and daemon fail in chains across repos - trace failure chains across repo boundaries before attributing
+- dependency-license-gate.md - adding new Go/Node dependencies - GPL/AGPL subprocess-only rule as a STOP clause; module-cache LICENSE verification
+- encoder-probe-finetuning-recipe.md - fine-tuning an encoder classifier - linear probe over frozen embeddings, head-appropriate lr, CPU training
+- finetune-uniform-output-diagnosis.md - fine-tune outputs frozen or uniform - underdose diagnosis: head-lr probe before blaming data
+- generated-docs-drift-and-sibling-build-breaks.md - generated docs drift + sibling mid-edit breaks - regenerate at gates; transient sibling build failures are not yours
+- leaf-collab-dispatch-protocol.md - two agents collaborating on one leaf - collaboration protocol and ownership split
+- leaf-collision-dispatch-protocol.md - gate-tripping under strict pre-commit hooks - shared-tree collision shapes and escapes
+- leaf-implementation-patterns.md - implementing leaves in shared Go modules - sibling leaves, worker e2e harness patterns
+- leaf-verification-fallbacks.md - verify step needs an unavailable environment - fallback verification ladder when the dev DB or service is unreachable
+- llm-json-lenient-parsing.md - parsing LLM JSON robustly - lenient parsing strategy for structured data
+- multi-agent-contention.md - multiple agents on one tree - contention shapes and arbitration
+- multi-session-repo-contention.md - concurrent sessions in one repo - contention survival guide for shared checkouts
+- multi-session-repo-hazards.md - multi-session repo hazards - hazard catalog: index poisoning, branch flips, table staleness
+- multi-session-stale-tables.md - tracking tables stale across sessions - stale-table audit and reconciliation
+- orchestrator-committed-leaf-during-execution.md - leaf done twice - orchestrator commits mid-execution; detect and reconcile
+- parallel-dispatch-patterns.md - parallel leaf dispatch - patterns proven in AgentAudit implementation
+- pitfall-plan-commit-precheck.md - unused-code pre-commit check blocks commit - staticcheck U1000 on staged packages; attribute before bypassing
+- session-aware-intent-gate-design.md - session-aware intent gate design - user-addressed agents query session state; forensics-derived follow-up stack
+- shared-tree-concurrent-leaf-execution.md - concurrent leaves in one shared tree - overlap rules and status coordination
+- subagent-timeout-and-rogue-commit-recovery.md - timeout is not no-work; rogue commits - pitfalls 47-48: salvage, attribution, recovery
+- timeout-recovery-and-entangled-leaves.md - timeout recovery + entangled commits - untangling leaves whose work landed together

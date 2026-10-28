@@ -1,5 +1,8 @@
 # Forest-Root Scanner Compliance (multi-tree forests)
 
+
+When to use: authoring multi-tree forests that must pass the compliance scanner.
+Lesson: forest-root master needs ALL orchestrator sections; sibling docs are leaf-checked.
 The template compliance scanner (`scripts/check_template_compliance.py`)
 has three behaviors that bite when you author a FOREST — a directory of N
 tree subdirs plus sibling reference docs — rather than a flat tree.

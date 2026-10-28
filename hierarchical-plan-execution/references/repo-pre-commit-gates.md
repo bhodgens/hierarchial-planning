@@ -1,3 +1,7 @@
+# Rrepo pre commit gates
+When to use: surviving repo pre-commit gates.
+Lesson: shared-tree commit hygiene under strict hooks.
+
 # Repo Pre-Commit Gate Survival & Shared-Tree Commit Hygiene
 
 Lessons from meept containment/loop-economics tree execution (2026-08-24/25, ~18 leaf dispatches into a repo with an 11-gate pre-commit hook). Generalizes to any repo with heavy client-side commit gates.

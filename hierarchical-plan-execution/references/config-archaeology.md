@@ -1,3 +1,7 @@
+# Cconfig archaeology
+When to use: quality problem dead-ends at the model itself.
+Lesson: git log -S the config: today config is the survivor of unreviewed ride-along edits, not a decision record.
+
 # Config archaeology: when today's quality problem was shipped months ago
 
 Companion to forensic-run-attribution.md. That reference covers attributing

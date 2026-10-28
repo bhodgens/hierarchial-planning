@@ -1,3 +1,7 @@
+# Pparallel subagent hazards
+When to use: parallel subagents.
+Lesson: hazard catalog: races, rate limits, merged reports.
+
 # Parallel Subagent Hazards
 
 Lessons from dispatching 4+ parallel subagents on Godot/GDScript plan-tree leaves.

@@ -1,5 +1,8 @@
 # Concurrent Wave Execution — pitfalls from the 2026-09-05 meept tree
 
+
+When to use: wave execution where same-package or registration-site leaves collide.
+Lesson: RED-phase build breakage rules, go-doc drift verification, license gate, serialization points.
 Session: meept `docs/plans/20260905-research-audit-tools/` (7 leaves, 3 waves,
 config + pdf tool + spreadsheet tool branches; all 7 REVIEWED, 6 committed
 in-session). Four class-level lessons that extend the SKILL.md pitfall list.

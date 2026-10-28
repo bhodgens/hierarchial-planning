@@ -1,3 +1,7 @@
+# Lleaf spec conflicts and sibling red build
+When to use: spec conflicts + sibling RED builds.
+Lesson: bare-heading compliance, pinned-case sizing math, LSP-filtered verification, blocked-leaf reports.
+
 # Leaf-spec conflict adjudication + sibling-RED build transients (plan-compiler leaf 03, 2026-09-06)
 
 Session: implemented EmitTree (leaf 03 of meept `docs/plans/plan-compiler`) in

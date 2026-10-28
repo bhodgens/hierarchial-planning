@@ -1,3 +1,7 @@
+# Lleaf verbatim contract messages
+When to use: byte-exact contract messages.
+Lesson: grep master by content not label; full-string equality tests; raw-field escape hatch.
+
 # Verbatim contract messages vs error-wrapper formatting (leaf 03/01, dependency-visibility tree, 2026-09-06)
 
 Contract F demanded a byte-verbatim failure message:

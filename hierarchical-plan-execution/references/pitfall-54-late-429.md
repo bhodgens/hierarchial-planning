@@ -1,3 +1,7 @@
+# Ppitfall 54 late 429
+When to use: subagent lands work then dies before reporting.
+Lesson: verify files on disk before re-dispatch; late-429 signature.
+
 # Pitfall 54: late-429 — subagent lands work, then dies before reporting
 
 Real instance: meept wikiskill-state tree, leaf 05 (2026-08-29). Subagent ran

@@ -1,7 +1,10 @@
 # Go Project Conventions (jobforge / pgx / River)
 
+When to use: dispatching subagents into a Go monolith using pgx/v5, River queue, or chi.
+Lesson: embed UUID-as-TEXT, JSONB marshalling, River migration, Makefile backgrounding, and embed-guard conventions directly in the dispatch context.
+
 Reusable patterns observed across a multi-phase Go implementation. These are
-NOT project-specific — they apply to any Go monolith using pgx/v5, River queue,
+NOT project-specific  -  they apply to any Go monolith using pgx/v5, River queue,
 and chi router. Cite this when dispatching Go subagents so they follow
 conventions without rediscovering them.
 
@@ -67,7 +70,7 @@ ERROR: relation "river_leader" does not exist (SQLSTATE 42P01)
 
 Fix: call `rivermigrate.New(...).Migrate(ctx, DirectionUp, nil)` BEFORE the
 first `client.Start(ctx)`. Do this in ONE process only (the web server is a
-good owner — workers assume the schema exists):
+good owner  -  workers assume the schema exists):
 
 ```go
 import "github.com/riverqueue/river/rivermigrate"
@@ -120,7 +123,7 @@ Security headers → RequestID → RequestLogger → Recoverer → RateLimit →
 `/api/*` route group only, inside the group's `r.Use(...)` block. If it runs
 globally, a developer token can authenticate browser session endpoints
 (`/app/account/delete`, `/app/developer-tokens`) that were designed for
-cookie-auth + CSRF only — making tokens session-equivalent credentials,
+cookie-auth + CSRF only  -  making tokens session-equivalent credentials,
 which is more than the feature intends.
 
 ```go
@@ -138,7 +141,7 @@ r.Group(func(r chi.Router) {
 ```
 
 AuthMiddleware should short-circuit (skip session check) if a user is already
-in context — set by the developer middleware that ran first in the group.
+in context  -  set by the developer middleware that ran first in the group.
 
 ### Shared context key for user
 
@@ -181,13 +184,13 @@ for _ in $(seq 1 30); do
 done
 ```
 This also catches the case where the process died during startup (migration
-failure, port conflict) — the `kill -0` check fails and you get the log tail
+failure, port conflict)  -  the `kill -0` check fails and you get the log tail
 instead of a silent hang.
 
 ## go:embed migration directories
 
 Migrations are embedded via `//go:embed migrations/*.sql`. New migration files
-are picked up automatically at compile time — BUT guard tests that count
+are picked up automatically at compile time  -  BUT guard tests that count
 migrations must be updated:
 ```go
 // internal/db/db_test.go
@@ -207,12 +210,12 @@ INSERT to a TEXT column, (c) replacement characters in stored data.
 
 **Always truncate by runes when the source is external:**
 ```go
-// WRONG — splits multi-byte UTF-8
+// WRONG  -  splits multi-byte UTF-8
 if len(desc) > MaxDescriptionLen {
     desc = desc[:MaxDescriptionLen]
 }
 
-// CORRECT — truncates at a valid rune boundary
+// CORRECT  -  truncates at a valid rune boundary
 if runes := []rune(desc); len(runes) > MaxDescriptionLen {
     desc = string(runes[:MaxDescriptionLen])
 }

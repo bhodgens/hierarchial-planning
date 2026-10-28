@@ -1,3 +1,7 @@
+# Aattribution repair sibling commit sweeps
+When to use: sibling swept your files into its commit.
+Lesson: detect by content diff never messages; filter-branch msg repair on unpushed commits only.
+
 # Sibling-Session Commit Sweeps: Attribution Verification & Repair
 
 Multiple orchestrator sessions sharing one worktree is normal on this

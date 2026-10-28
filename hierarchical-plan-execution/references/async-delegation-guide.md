@@ -1,3 +1,7 @@
+# Aasync delegation guide
+When to use: dispatching subagents for parallel leaves.
+Lesson: delegate_task patterns: batch shape, continuation triggers, failure handling.
+
 # Async Delegation: Working with Subagents
 
 ## Overview

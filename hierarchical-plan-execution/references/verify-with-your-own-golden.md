@@ -1,3 +1,7 @@
+# Vverify with your own golden
+When to use: sibling artifacts drift from a shared spec.
+Lesson: cross-check against your own golden fixture; zz_-prefixed in-package test probe is the consent-safe form.
+
 # Verify-with-your-own-golden: cross-checking sibling artifacts against the shared spec (plan-compiler tree, meept 2026-09-06)
 
 Session: `docs/plans/plan-compiler/` — leaf 02 compiled markdown to

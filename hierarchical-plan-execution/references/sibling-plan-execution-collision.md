@@ -1,3 +1,7 @@
+# Ssibling plan execution collision
+When to use: three sessions executed one forest.
+Lesson: inverted collision: leaf finds sibling already wrote its files; read-before-write.
+
 # Sibling-Session Plan Execution Collision
 
 Not hypothetical: meept `docs/plans/llm-resilience-forest/` (2026-09-01/02)

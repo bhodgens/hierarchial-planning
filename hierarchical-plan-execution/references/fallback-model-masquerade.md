@@ -1,3 +1,7 @@
+# Ffallback model masquerade
+When to use: quota window dressed as assertion failure.
+Lesson: weak fallback models produce wrong-but-green verdicts; forensics before STOP clauses.
+
 # Fallback-model masquerade: quota window dressed as assertion failure
 
 How a provider quota window makes a live e2e suite FAIL in ways that mimic

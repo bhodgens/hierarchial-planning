@@ -1,3 +1,7 @@
+# Sshared tree orchestration pitfalls
+When to use: multi-agent plan execution pitfalls.
+Lesson: shared-tree orchestration catalog.
+
 # Shared-Tree Orchestration Pitfalls (multi-agent plan execution)
 
 Lessons from executing a 15-commit plan tree in a repo shared with parallel

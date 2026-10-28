@@ -1,3 +1,7 @@
+# Mmlx restoration model archaeology 2026 09 06
+When to use: silently degraded classifier config.
+Lesson: git archaeology, LoRA re-fuse, per-runtime provider isolation.
+
 # MLX Restoration & Model-Config Archaeology (meept, 2026-09-06)
 
 Session record for: restoring the platform-intrinsic classifier after a

@@ -1,3 +1,7 @@
+# Rresearch leaf execution
+When to use: research leaves run in-session.
+Lesson: when NOT to delegate: in-session research mode.
+
 # Research-Leaf Execution Mode (in-session, not delegated)
 
 Learned 2026-08-19, agent-orange Phase 0 execution.

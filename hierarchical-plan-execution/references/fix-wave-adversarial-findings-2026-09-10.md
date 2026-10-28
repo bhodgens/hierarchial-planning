@@ -1,3 +1,7 @@
+# Ffix wave adversarial findings 2026 09 10
+When to use: adversarial-review findings become fix leaves.
+Lesson: findings taxonomy, triage rules, deferred findings get real issues.
+
 # Fix wave: adversarial-review findings → parallel fix leaves (2026-09-10, openbot-parity)
 
 Post-campaign close-out, the user asked to "fix associated issues and bugs found

@@ -1,3 +1,7 @@
+# Cclassi fly integration leaf 2026 09 11
+When to use: leaf needs a sibling not-yet-landed package.
+Lesson: author verbatim to frozen contract signatures; close RED-BUILD-BLOCKED with the exact unblock command.
+
 # Sibling RED-BUILD-BLOCKED leaf execution — classi-fly leaf 07 (2026-09-11)
 
 Worked case: `classi-fly` leaf `07-integration.md` (sidecar + judge example +

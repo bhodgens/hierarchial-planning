@@ -1,3 +1,7 @@
+# Ppitfall 55 stale delegation
+When to use: stale async delegation reports.
+Lesson: hours-late completed returns after in-session completion.
+
 # Pitfall 55: stale async delegation reports after in-session completion
 
 Subagents dispatched at session start may return hours later with "completed"

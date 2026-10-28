@@ -1,3 +1,7 @@
+# Ccampaign 2026 09 09 openbot parity
+When to use: 16-leaf openbot-parity campaign.
+Lesson: commit-text guard escapes, per-leaf post-commit cleanliness, vendored-mirror order, hunk ownership at scale.
+
 # OpenBot-parity campaign execution (2026-09-09, humanplusone)
 
 10 GH issues → 9 waves → 16 leaves, ~6h, zero clobbers, zero collision

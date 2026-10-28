@@ -1,5 +1,8 @@
 # Wave Execution Patterns — Worked Example (`plans-glm/` Waves 1-3)
 
+
+When to use: dispatch/review loop for implementation waves.
+Lesson: inline specs triple output; timeout is the norm for large leaves; compile-check first.
 > Session: 2026-07-19/20, Rebellion game project.
 > Task: execute the 12-tree `plans-glm/` forest in dependency-ordered waves,
 > dispatching 3 Go-side implementation subagents per wave.

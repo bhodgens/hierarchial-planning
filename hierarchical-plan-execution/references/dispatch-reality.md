@@ -1,3 +1,7 @@
+# Ddispatch reality
+When to use: most repo-leaf subagents die at the timeout.
+Lesson: plan for partial returns: checkpoint reports, subset re-dispatch.
+
 # Dispatch reality for leaf subagents (2026-08-17, rebellion tree 25)
 
 Finding: during tree-25 execution, 5 of 5 repo-leaf subagents died —

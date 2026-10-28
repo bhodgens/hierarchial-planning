@@ -1,5 +1,8 @@
 # Meept Distributed Cluster Implementation Status
 
+When to use: resuming or assessing the meept distributed-cluster plan tree.
+Lesson: a per-component file/status snapshot is the baseline for gap analysis before any new dispatch.
+
 **Plan:** `docs/superpowers/plans/2026-06-06-distributed-cluster-implementation.md`
 **Session:** 2026-06-06
 

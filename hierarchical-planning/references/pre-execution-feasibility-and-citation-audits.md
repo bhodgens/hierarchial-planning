@@ -1,5 +1,8 @@
 # Pre-Execution Audits: Feasibility + Citation Drift (+ Sibling Baseline)
 
+
+When to use: pre-dispatch verification of mechanisms and anchors.
+Lesson: feasibility audit finds dead seams; citation audit corrects drifted file:line anchors.
 Run these read-only audit dispatches AFTER authoring a plan tree/forest and
 BEFORE dispatching implementation agents. Proven 2026-09-01 on the meept
 `llm-resilience-forest` (5 trees, 18 leaves): the feasibility audit found 3

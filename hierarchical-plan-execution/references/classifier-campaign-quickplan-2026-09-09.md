@@ -1,3 +1,7 @@
+# Cclassifier campaign quickplan 2026 09 09
+When to use: 4-leaf quickplan tree + 40-iteration campaign.
+Lesson: taxonomy touchpoint inventory, cue-guard pattern, adjudicated gold replay workflow.
+
 # Classifier Campaign + QuickPlan Tree — 2026-09-09 session
 
 Worked example for `hierarchical-plan-execution` / `hierarchical-planning`:

@@ -1,3 +1,7 @@
+# Iintent taxonomy extension checklist
+When to use: adding a member to an enum-ish Go taxonomy.
+Lesson: leaf contracts under-count touchpoints; record a reason per exclusion.
+
 # Intent-taxonomy extension checklist (Go enum-ish type + method switches)
 
 Class: adding a member to a taxonomy type where a plan-leaf contract names

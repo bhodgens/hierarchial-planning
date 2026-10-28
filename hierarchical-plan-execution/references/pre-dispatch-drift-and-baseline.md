@@ -1,3 +1,7 @@
+# Ppre dispatch drift and baseline
+When to use: before each wave dispatch.
+Lesson: grep leaf-doc symbols against source and record a scoped build+test baseline; fold corrections into contexts.
+
 # Pre-Dispatch Drift Audit + Baseline Snapshot
 
 Leaf docs are written at planning time; the codebase moves before execution.

@@ -1,3 +1,7 @@
+# Ppitfall leaf reverts sibling work
+When to use: leaf reverts sibling uncommitted work.
+Lesson: read-before-write; never git-checkout shared paths.
+
 # Pitfall: leaf subagent reverts sibling leaves' uncommitted work (skill-evolver tree, 2026-09-01)
 
 ## What happened

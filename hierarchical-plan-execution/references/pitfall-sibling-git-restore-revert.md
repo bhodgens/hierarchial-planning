@@ -1,3 +1,7 @@
+# Ppitfall sibling git restore revert
+When to use: sibling git restore reverts a completed leaf.
+Lesson: detection and recovery.
+
 # Pitfall: sibling leaf's git restore reverts a completed leaf's work
 
 (meept skill-evolver tree, 2026-09-01 — three leaves in parallel, one package)

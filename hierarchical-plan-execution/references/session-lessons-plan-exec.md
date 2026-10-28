@@ -1,3 +1,7 @@
+# Ssession lessons plan exec
+When to use: tier-3 tree execution lessons.
+Lesson: subagent timeout is not work lost; early pitfall bank.
+
 # Session Lessons — Plan Execution Pitfalls (meept tier-3 tree, 2026-08-22)
 
 ## 1. Subagent "timeout" ≠ work lost

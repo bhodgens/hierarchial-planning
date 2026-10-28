@@ -1,3 +1,7 @@
+# Sstall recovery and scripted migrations
+When to use: stalled subagents + mechanical migrations.
+Lesson: recovery patterns from unified-theming.
+
 # Stall Recovery + Mechanical Migration (meept unified-theming, 2026-08-25)
 
 Two lessons from executing the unified-theming plan tree; both belong in the

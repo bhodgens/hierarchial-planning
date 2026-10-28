@@ -1,5 +1,8 @@
 # Compliance Scanner — Exact Required Headings
 
+
+When to use: authoring docs that must pass check_template_compliance.py.
+Lesson: exact required heading strings; near-synonyms fail and cost a fix round-trip.
 `scripts/check_template_compliance.py --strict-leaves` matches section
 headings by EXACT string. Plausible near-synonyms fail and cost a fix
 round-trip (observed 2026-08-18, rebellion tree 26: "Completion Tracking",

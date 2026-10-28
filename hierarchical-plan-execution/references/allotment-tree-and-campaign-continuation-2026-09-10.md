@@ -1,3 +1,7 @@
+# Aallotment tree and campaign continuation 2026 09 10
+When to use: context-size-aware step allotment tree.
+Lesson: AllotmentTokens math, nil-provider legacy contract, double-confidence gate measured and adopted.
+
 # Allotment tree + campaign continuation (2026-09-09/10, meept classifier-iteration)
 
 Session-specific detail for the capability-aware allotment tree and the

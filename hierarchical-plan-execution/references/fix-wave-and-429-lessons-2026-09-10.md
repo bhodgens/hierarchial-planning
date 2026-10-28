@@ -1,3 +1,7 @@
+# Ffix wave and 429 lessons 2026 09 10
+When to use: fix-wave dispatch + provider 429s.
+Lesson: dispatch-storm 429s are not leaf quota; serial re-dispatch; whole-package gates.
+
 # Fix-wave dispatch, provider 429s, whole-package gates
 ## (humanplusone openbot-parity campaign, 2026-09-10)
 

@@ -1,3 +1,7 @@
+# Ppitfall user paused mid tree
+When to use: user denies a commit mid-tree.
+Lesson: distinct healthy state with a handback protocol; no retries, no detours.
+
 # Pitfall: User pauses the tree mid-flight (denied commit)
 
 Session: meept llm-resilience-forest tree 05-catalog, 2026-09-01. Leaf 01

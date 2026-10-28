@@ -1,3 +1,7 @@
+# Rrate limit orchestrator completes
+When to use: 429s block the orchestrator mid-tree.
+Lesson: orchestrator-completes pattern for stalled leaves.
+
 # Rate-limit completions and orchestrator-completes patterns (2026-08-29, wikiskill tree)
 
 Worked additions to the SKILL.md pitfalls. SKILL.md is at its size cap, so new

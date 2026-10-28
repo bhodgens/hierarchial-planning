@@ -1,5 +1,8 @@
 # Open-Questions Walkthrough — Worked Recipe
 
+
+When to use: presenting a tree's OPEN-QUESTIONS.md to the user.
+Lesson: mechanical-vs-user bifurcation, 10-or-fewer walkthrough batches, confirm terse answers.
 Reference for `hierarchical-planning` Step 6.8. Worked example from the
 Rebellion `plans-glm/` session (2026-07-19), where a 12-tree forest produced
 ~50 open questions; 9 needed user decisions, walked through in one batch.

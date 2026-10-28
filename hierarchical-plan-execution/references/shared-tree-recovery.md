@@ -1,3 +1,7 @@
+# Sshared tree recovery
+When to use: orchestrator recovery in shared trees.
+Lesson: recipes: pre-commit stat checks, index triage, gate false-failures.
+
 # Shared-Tree Recovery Recipes (orchestrator side)
 
 Companion to `references/shared-checkout-contention.md` (leaf-agent view of the

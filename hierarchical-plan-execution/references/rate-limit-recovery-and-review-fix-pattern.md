@@ -1,3 +1,7 @@
+# Rrate limit recovery and review fix pattern
+When to use: many parallel subagents get throttled.
+Lesson: 429 recovery and the parallel review-fix pattern.
+
 # Rate Limit Recovery and Parallel Review-Fix Pattern
 
 Two operational patterns learned from sessions that dispatch many parallel subagents.

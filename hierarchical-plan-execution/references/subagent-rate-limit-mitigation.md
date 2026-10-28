@@ -1,3 +1,7 @@
+# Ssubagent rate limit mitigation
+When to use: 6+ parallel subagents get 429-throttled.
+Lesson: mitigation: stagger, shrink, retry with original context.
+
 # Subagent Rate Limit Mitigation
 
 When dispatching many subagents in parallel (6+), the subagent model's API

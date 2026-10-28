@@ -1,5 +1,8 @@
 # Plan-Authoring Verification & Snippet Quality
 
+
+When to use: flat-leaf trees, snippet quality, scanner blind spots.
+Lesson: treat '(forest root): OK' as a no-op; plan snippets must be final-form, not drafts.
 Home for hierarchical-planning lessons that postdate the SKILL.md pitfalls
 list. SKILL.md is over the 100K patch limit, so new pitfalls land here until
 a curator pass splits the file. Cross-reference: `anchor-verification-sweep.md`

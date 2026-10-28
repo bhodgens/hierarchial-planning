@@ -1,3 +1,7 @@
+# Cclassifier observability decisions vs outcomes
+When to use: can accuracy improve from logs?.
+Lesson: decisions are logged, outcomes are not; improvement is offline-only until both persist.
+
 # Classification accuracy logging — decision-vs-outcome gap (meept, 2026-09-10)
 
 Context: user asked "do we keep details in logs on failures/successes so

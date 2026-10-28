@@ -1,3 +1,7 @@
+# Ppitfall 55 ghost completed
+When to use: completed status but files never landed.
+Lesson: stat the file list; re-dispatch the missing subset.
+
 # Pitfall 55: subagent reports "completed" but files did not land
 
 Real instance: meept quota-reset-resilience leaf 06 subagent (deleg_923f3356,

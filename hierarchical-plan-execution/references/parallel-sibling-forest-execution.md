@@ -1,3 +1,7 @@
+# Pparallel sibling forest execution
+When to use: executing a forest beside sibling sessions.
+Lesson: coordination when others execute neighbor trees.
+
 # Executing a Plan Forest Alongside Parallel Sibling Sessions
 
 Worked example: meept `llm-resilience-forest` (5 trees, 19 leaves), 2026-09-01.

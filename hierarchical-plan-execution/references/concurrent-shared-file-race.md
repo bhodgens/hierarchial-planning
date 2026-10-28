@@ -1,3 +1,7 @@
+# Cconcurrent shared file race
+When to use: sibling leaves reverting each other changes.
+Lesson: shared-file race shapes and one-writer-per-region fixes.
+
 # Concurrent Shared-File Race — Sibling Leaves Reverting Your Changes
 
 > When parallel leaves co-own shared files (interfaces, store implementations,

@@ -1,3 +1,7 @@
+# Sself poisoning test fixtures
+When to use: fixtures poison their own environment.
+Lesson: tier/env-derived resolution in unit tests.
+
 # Self-Poisoning Test Fixtures (tier/env-derived resolution in unit tests)
 
 Signal class: a test that PASSED for weeks starts failing with

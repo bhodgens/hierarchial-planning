@@ -1,14 +1,17 @@
-# External API Contract Verification — Live Dry-Run Pattern
+# External API Contract Verification  -  Live Dry-Run Pattern
+
+When to use: a subagent writes a client for an external API nobody verified live this session.
+Lesson: verify the contract from live docs pre-dispatch, run a live dry-run smoke test after, and add contract checks to review - mock-server tests mask production bugs.
 
 When implementing fetchers/clients against external APIs (job boards,
 SaaS products, public data feeds), the test fixtures written from plan
 assumptions or stale blog posts are the single largest source of
 production bugs. Mock-server tests confirm the code parses the fixture
-correctly — not that the fixture matches reality.
+correctly  -  not that the fixture matches reality.
 
 ## The 3-stage verification pipeline
 
-### Stage 1: Pre-dispatch — verify the API contract before writing code
+### Stage 1: Pre-dispatch  -  verify the API contract before writing code
 
 Before dispatching an implementation subagent for an external API
 client, verify the contract yourself (the orchestrator) via:
@@ -22,7 +25,7 @@ Do NOT trust the plan's API description if no one has verified it this
 session. Plans are often written from memory or community examples that
 may be months or years stale.
 
-### Stage 2: Post-implementation — live dry-run smoke test
+### Stage 2: Post-implementation  -  live dry-run smoke test
 
 After unit tests pass and the code is committed, run the actual tool
 against real endpoints in a no-side-effects mode:
@@ -37,7 +40,7 @@ Scan output for:
 - **HTTP 4xx/5xx** (auth or endpoint wrong)
 - **Zero results when results were expected** (silent failure)
 
-### Stage 3: Review phase — check for contract verification
+### Stage 3: Review phase  -  check for contract verification
 
 When dispatching review subagents for code that integrates with external
 APIs, add these checks to the review prompt:
@@ -51,7 +54,7 @@ APIs, add these checks to the review prompt:
 
 ## Concrete bugs caught by this pattern (jobforge ATS fetchers)
 
-### USAJobs auth scheme (Critical — would 401 on every request)
+### USAJobs auth scheme (Critical  -  would 401 on every request)
 
 **Assumed (plan):** `Authorization: Basic email:apikey` (literal, not
 base64), host `developer.usajobs.gov`.
@@ -65,7 +68,7 @@ suspicious. Orchestrator verified via `web_extract` of the official
 authentication docs page, which explicitly documents the three required
 headers.
 
-### SmartRecruiters endpoint + URL field (Critical — wrong URLs stored)
+### SmartRecruiters endpoint + URL field (Critical  -  wrong URLs stored)
 
 **Assumed (plan):** Endpoint `careers.smartrecruiters.com/{board}/api/v1/jobs`
 (undocumented CORS mirror), URL field `ref`.

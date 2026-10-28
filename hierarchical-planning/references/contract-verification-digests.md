@@ -1,5 +1,8 @@
 # Contract Verification Digests — Recipe
 
+
+When to use: post-authoring check that frozen contract values match the source spec.
+Lesson: one read-only subagent per spec slice diffs spec quotes against authored contracts (tier 2).
 > A post-authoring, pre-execution verification technique for hierarchical plan
 > trees. Catches **paraphrase-drift** (Pitfall 21) — frozen contract values in
 > the plan that contradict the source spec — which the structural compliance

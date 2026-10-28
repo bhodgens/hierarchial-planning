@@ -1,3 +1,7 @@
+# Aauthor session sibling execution reconciliation 2026 09 06
+When to use: a sibling session executes the tree you authored.
+Lesson: reconcile author intent vs sibling execution via the tracking table.
+
 # Authoring session watches a sibling execute the authored tree (2026-09-06, skill-authoring-and-media-ingest)
 
 A new reconciliation shape: the session that AUTHORED a plan tree

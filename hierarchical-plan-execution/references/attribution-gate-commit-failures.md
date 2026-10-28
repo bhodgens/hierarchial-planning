@@ -1,3 +1,7 @@
+# Aattribution gate commit failures
+When to use: commit blocked after shader edits.
+Lesson: attribute gate failures to the actual staged diff before cycling.
+
 # Attribution-Gate Commit Failures After Shader Edits (2026-08-22)
 
 Session: rebellion-the-game tree 30 leaf 03/04 commits.

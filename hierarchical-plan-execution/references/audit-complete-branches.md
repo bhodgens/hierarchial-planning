@@ -1,3 +1,7 @@
+# Aaudit complete branches
+When to use: tracking tables say COMPLETE, branches disagree.
+Lesson: audit table vs branch state before trusting completion.
+
 # Audit-Complete Branches: When Tracking Tables Lie
 
 > Pattern for Step 1.5 (Pre-Dispatch Already-Implemented Check), extended to

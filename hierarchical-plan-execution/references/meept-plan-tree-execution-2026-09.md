@@ -1,3 +1,7 @@
+# Mmeept plan tree execution 2026 09
+When to use: two full trees back-to-back in meept.
+Lesson: hunk-ownership dispatch lines, drift-audit catches, commit-sweep repair.
+
 # Plan-Tree Execution in Meept — Session Notes (2026-09-05/06)
 
 Two full trees executed back-to-back in meept with the

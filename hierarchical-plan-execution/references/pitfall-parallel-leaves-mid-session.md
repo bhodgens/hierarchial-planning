@@ -1,3 +1,7 @@
+# Ppitfall parallel leaves mid session
+When to use: leaves land mid-session while others run.
+Lesson: re-run green checks before the report; scope evidence to YOUR files; attribute sibling dirty paths.
+
 # Pitfall: parallel plan-tree leaves landing mid-session
 
 Executing one leaf of a multi-leaf plan tree while sibling agents implement

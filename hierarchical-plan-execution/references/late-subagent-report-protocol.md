@@ -1,3 +1,7 @@
+# Llate subagent report protocol
+When to use: subagent looks dead but is alive.
+Lesson: first-contact evidence, late report handling, no duplicate re-dispatch.
+
 # Late Subagent Report Protocol
 
 Seen 2026-08-29 (meept 20260829-harness-eval tree, leaves 05/07/12).

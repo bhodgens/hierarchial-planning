@@ -8,7 +8,7 @@ platforms: [linux, macos, windows]
 metadata:
   hermes:
     tags: [planning, design, implementation, workflow, documentation]
-    related_skills: [subagent-driven-development, test-driven-development, requesting-code-review, hierarchical-planning]
+    related_skills: [subagent-driven-development, hierarchical-planning]
 ---
 
 # Writing Implementation Plans
@@ -20,6 +20,9 @@ metadata:
 > for trivial single-component work.
 
 ## Overview
+
+
+> Shared model and write-path policy: references/plan-tree-canon.md (C1-* sections). Read once; this skill assumes it.
 
 Write comprehensive implementation plans assuming the implementer has zero context for the codebase and questionable taste. Document everything they need: which files to touch, complete code, testing commands, docs to check, how to verify. Give them bite-sized tasks. DRY. YAGNI. TDD. Frequent commits.
 
@@ -39,7 +42,7 @@ Assume the implementer is a skilled developer but knows almost nothing about the
 - Multiple subsystems can be built concurrently
 - The work has natural architectural seams (modules, layers, packages)
 
-In that case, use the `hierarchical-planning` skill instead — it produces a tree of plan documents where leaves fit one agent and orchestrators dispatch, review, and commit.
+In that case, use the `hierarchical-planning` skill instead - it produces a tree of plan documents where leaves fit one agent and orchestrators dispatch, review, and commit.
 
 **Don't skip when:**
 - Feature seems simple (assumptions cause bugs)
@@ -51,11 +54,11 @@ In that case, use the `hierarchical-planning` skill instead — it produces a tr
 **Each task = 2-5 minutes of focused work.**
 
 Every step is one action:
-- "Write the failing test" — step
-- "Run it to make sure it fails" — step
-- "Implement the minimal code to make the test pass" — step
-- "Run the tests and make sure they pass" — step
-- "Commit" — step
+- Write the failing test
+- Run it to make sure it fails
+- Implement the minimal code to make the test pass
+- Run the tests and make sure they pass
+- Commit
 
 **Too big:**
 ```markdown
@@ -120,7 +123,7 @@ def test_specific_behavior():
 **Step 2: Run test to verify failure**
 
 Run: `pytest tests/path/test.py::test_specific_behavior -v`
-Expected: FAIL — "function not defined"
+Expected: FAIL - "function not defined"
 
 **Step 3: Write minimal implementation**
 
@@ -180,20 +183,20 @@ shape they recall.
 
 Check:
 - Does the named vendor/product exist at all? A name recalled from memory can be
-  wrong or conflated with a different product (real case: "Speedly" payment router —
+  wrong or conflated with a different product (real case: "Speedly" payment router -
   no such product; searches return Spreedly and speedy.io, both different product
   classes). Search the bare NAME before comparing alternatives, flag near-matches
   to the user as an Open Question, and never silently substitute a close-named
   product.
 - Does the named endpoint/path exist? (`web_search` the provider's docs.)
 - Is the auth scheme what the user said? (OAuth vs API key vs custom
-  headers — e.g. USAJobs uses `Authorization-Key: <apikey>` + `User-Agent:
+  headers - e.g. USAJobs uses `Authorization-Key: <apikey>` + `User-Agent:
   <email>` + host `data.usajobs.gov`, which no amount of guessing from the
   name "USAJobs API" would reveal. The original plan assumed literal
   `Basic email:key` and shipped a fetcher+tests that passed against mock
   fixtures but would 401 against the real API.)
 - Is the transport what they assumed? (Real example: a user asked for an
-  "Arbeitnow GraphQL" integration; no public GraphQL API exists — the
+  "Arbeitnow GraphQL" integration; no public GraphQL API exists - the
   feed is a REST JSON endpoint. A plan written around a GraphQL query
   would have failed at implementation.)
 - Is there a reference implementation in the source repo to port from?
@@ -204,7 +207,7 @@ Check:
   event-type strings, citing file:line in the leaf. Live docs and pinned
   source can disagree (real case: docs showed `created_lt` query params;
   the pinned checkout's serde renames use dotted `created.gte` keys; also
-  `payment_id` vs `id` field names) — the pinned source wins because it is
+  `payment_id` vs `id` field names) - the pinned source wins because it is
   what you deploy; record the delta as a named staging verification item.
   For webhook signatures, check for compatibility layers BEFORE writing
   verification code: some providers ship a Stripe-compatible signature
@@ -322,15 +325,14 @@ git commit -m "docs: add implementation plan for [feature]"
 **Good:** Implement only what's needed now
 
 ```python
-# Bad — YAGNI violation
+# Bad - YAGNI violation
 class User:
     def __init__(self, name, email):
         self.name = name
         self.email = email
-        self.preferences = {}  # Not needed yet!
-        self.metadata = {}     # Not needed yet!
+        self.preferences = {}  # not needed
 
-# Good — YAGNI
+# Good - YAGNI
 class User:
     def __init__(self, name, email):
         self.name = name
@@ -392,11 +394,11 @@ delegate_task brief). The same failure mode applies to any very long single outp
   file wholesale in one compact pass, then verify with a content search for the mangled
   fragments until 0 matches before handing the plan to anyone.
 - Keep delegation briefs compact (see Execution Handoff). A corrupted dispatch fails schema
-  validation and dispatches nothing — re-dispatch clean with a shorter brief.
+  validation and dispatches nothing - re-dispatch clean with a shorter brief.
 
 ### Manual Steps for Pipeline/Ops Tasks
 
-**Bad:** A pipeline plan with 20 manual curl/ssh steps — the agent must execute
+**Bad:** A pipeline plan with 20 manual curl/ssh steps - the agent must execute
 each sequentially, error recovery is ad-hoc, and re-running from a mid-point
 failure means re-reading the whole plan to find which step failed.
 
@@ -406,7 +408,7 @@ stopped and resumed. The plan's leaf produces the script; execution is one comma
 
 When the user asks for an "LLM-executable plan" for a pipeline or ops task
 (asset generation, data retrieval, batch processing), the deliverable is a
-script — not a sequence of manual terminal commands. The script should:
+script - not a sequence of manual terminal commands. The script should:
 - Track state (manifest.json, prompts.json) so it's idempotent
 - Support `--dry-run` for preview
 - Support `--path`/`--output-dir` for flexibility
@@ -416,7 +418,7 @@ script — not a sequence of manual terminal commands. The script should:
 
 After saving the plan, offer the execution approach:
 
-**"Plan complete and saved. Ready to execute using subagent-driven-development — I'll dispatch a fresh subagent per task with two-stage review (spec compliance then code quality). Shall I proceed?"**
+**"Plan complete and saved. Ready to execute using subagent-driven-development - I'll dispatch a fresh subagent per task with two-stage review (spec compliance then code quality). Shall I proceed?"**
 
 When executing, use the `subagent-driven-development` skill:
 - Fresh `delegate_task` per task with full context
@@ -437,3 +439,5 @@ Frequent commits
 ```
 
 **A good plan makes implementation obvious.**
+
+> Maintenance: references/skill-maintenance.md.

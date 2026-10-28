@@ -1,3 +1,7 @@
+# Mmultiwave campaign orchestration 2026 09 09
+When to use: 10-issue campaign in 4 waves.
+Lesson: frozen contracts beat prose, serialize-on-consumption, leaf report anatomy, action-SHA pinning.
+
 # Multi-Wave Campaign: 10-Issue Platform Parity (humanplusone, 2026-09-09)
 
 Worked case: user asked for 10 GitHub issues → "systematically, create

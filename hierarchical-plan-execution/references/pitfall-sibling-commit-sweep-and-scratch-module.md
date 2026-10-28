@@ -1,3 +1,7 @@
+# Ppitfall sibling commit sweep and scratch module
+When to use: sibling commit sweep variants + scratch escape.
+Lesson: hook-as-denial misread, staged-index poisoning, filter-branch attribution repair.
+
 # Pitfall: sibling commit sweep + scratch-module escape hatch
 
 Two wrinkles from the same leaf session (meept llm-resilience-forest

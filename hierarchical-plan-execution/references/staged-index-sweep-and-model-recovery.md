@@ -1,3 +1,7 @@
+# Sstaged index sweep and model recovery
+When to use: already-staged sibling file rides your commit.
+Lesson: simplest sweep variant + local-first model recovery via LoRA re-fuse.
+
 # Staged-Index Sweep Repair + Local-First Model Recovery (meept, 2026-09-06)
 
 Two linked lessons from one session: (1) the simplest commit-sweep variant

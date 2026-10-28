@@ -1,3 +1,7 @@
+# Ssibling package collision
+When to use: two leaves co-own one package.
+Lesson: build collision pattern and ownership resolution.
+
 # Sibling Leaf in the Same Package — Build Collision Pattern
 
 > When two plan-tree leaves co-own one Go (or otherwise same-package) directory

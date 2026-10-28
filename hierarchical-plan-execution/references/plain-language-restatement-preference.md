@@ -1,3 +1,7 @@
+# Pplain language restatement preference
+When to use: user asks for plain-language restatement.
+Lesson: metaphor-based pattern; dense version first, plain pass on request.
+
 # Plain-language restatement on request ("explain that again like I'm stupid")
 
 User preference, surfaced 2026-09-08 during the meept classifier campaign

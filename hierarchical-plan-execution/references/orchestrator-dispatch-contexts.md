@@ -1,3 +1,7 @@
+# Oorchestrator dispatch contexts
+When to use: building leaf dispatch contexts.
+Lesson: proven dispatch prompt skeleton: read leaf, ownership lines, evidence rules.
+
 # Building Leaf Dispatch Contexts (orchestrator side)
 
 Proven on llm-resilience-forest tree 01 (2026-09-01): 4 leaves, 4 commits

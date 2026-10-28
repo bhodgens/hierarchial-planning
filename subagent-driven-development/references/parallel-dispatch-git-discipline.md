@@ -1,5 +1,8 @@
 # Parallel dispatch: brief discipline + shared-repo git rules
 
+When to use: parallel delegate_task waves committing to one shared repo.
+Lesson: compact briefs, explicit git add paths only, index.lock retry, and one simple verification command per check.
+
 Observed in one session (UpriSys site build, Sept 2026): four parallel delegate_task
 waves against one repo. What worked, and what failed.
 
@@ -8,12 +11,12 @@ waves against one repo. What worked, and what failed.
 A very long delegate_task context parameter can degrade mid-generation the same way
 a large write_file does: duplicated sentences, corrupted JSON in the tasks array, mixed-up
 goals. A corrupted dispatch fails schema validation ("Task 0 must be an object, got str")
-and dispatches nothing — no half-runs, but a wasted round-trip.
+and dispatches nothing  -  no half-runs, but a wasted round-trip.
 
 - Brief shape: goal + pinned plan path + task section + exact constraints + ONE verification
   command + ONE commit command. Nothing more.
 - A corrupted dispatch is detected at the tool-call layer; re-dispatch clean with a shorter
-  brief. Do not try to "fix" the corrupted call — reissue compact.
+  brief. Do not try to "fix" the corrupted call  -  reissue compact.
 - The same degradation applies to writing large documents (see writing-plans, "Long-output
   degradation"). If it happened once in a session, keep every remaining long output extra
   compact.
@@ -22,12 +25,12 @@ and dispatches nothing — no half-runs, but a wasted round-trip.
 
 Every brief for a parallel wave that commits to one repo MUST pin:
 
-1. Commit ONLY the task's own file paths: `git add site/css/style.css` — never `git add -A`
+1. Commit ONLY the task's own file paths: `git add site/css/style.css`  -  never `git add -A`
    or `git add .` (siblings sweep each other's staged files).
 2. Retry on `.git/index.lock`: sleep 3, retry 3x. Parallel committers collide on the index.
 3. Fixed identity via `-c` flags when the repo requires it:
    `git -c user.name="..." -c user.email="..." add <paths> && git -c ... commit -m "..."`.
-4. One file per task where possible — file ownership is the collision boundary.
+4. One file per task where possible  -  file ownership is the collision boundary.
 
 ## What runs in-session vs dispatched
 

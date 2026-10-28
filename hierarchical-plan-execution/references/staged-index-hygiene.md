@@ -1,3 +1,7 @@
+# Sstaged index hygiene
+When to use: parallel sessions sharing one repo.
+Lesson: sweep commits, staged-set verification, hunk-splitting, stash destruction.
+
 # Staged-Index Hygiene — Parallel Sessions Sharing One Repo
 
 Worked example: meept multiuser tree (2026-08-26). Six leaves executed by

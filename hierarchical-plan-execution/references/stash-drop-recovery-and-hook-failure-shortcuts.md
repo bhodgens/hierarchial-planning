@@ -1,3 +1,7 @@
+# Sstash drop recovery and hook failure shortcuts
+When to use: hook failure on sibling files.
+Lesson: go straight to --no-verify, never stash-dance; stash-drop path recovery.
+
 # Stash-Drop Recovery and Pre-Commit Hook Failure Shortcuts
 
 Session-proven 2026-09-06 (meept, tokscale-ingest tree, Leaf 01 commit). The

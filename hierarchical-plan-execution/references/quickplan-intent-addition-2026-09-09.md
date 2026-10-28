@@ -1,3 +1,7 @@
+# Qquickplan intent addition 2026 09 09
+When to use: adding a quickplan-style intent.
+Lesson: routing taxonomy recipe proven across a 4-leaf tree.
+
 # QuickPlan-Style Intent Addition — classifier routing recipe
 
 Session-proven 2026-09-09 (meept quickplan-mode tree, 4 leaves, all first-pass).

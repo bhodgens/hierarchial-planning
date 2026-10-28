@@ -1,3 +1,7 @@
+# Zzero file timeout completed
+When to use: completed status with only an API error body.
+Lesson: zero-file timeouts: treat as failed dispatch, check partial writes.
+
 # Zero-file "completed" timeouts
 
 `delegate_task` can return **status=completed** with a body like:

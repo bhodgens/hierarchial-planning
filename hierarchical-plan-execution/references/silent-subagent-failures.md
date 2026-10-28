@@ -1,3 +1,7 @@
+# Ssilent subagent failures
+When to use: FAILED status but all files written.
+Lesson: the inverse failure: verify before redoing; detection patterns.
+
 # Silent Subagent Failures — Detection and Recovery
 
 ## The Inverse Failure: "FAILED/timeout" status but ALL files actually written

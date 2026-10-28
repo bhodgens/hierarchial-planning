@@ -1,5 +1,8 @@
 # Orchestrator fix passes and dispatch contracts
 
+When to use: orchestrator-side reconciliation after parallel builds, or tuning rounds from terse user feedback.
+Lesson: count-asserted batch edits, serialize the contract-definer before dependents, single-command verify steps, and explicit entrypoint-wiring ownership.
+
 Condensed from a real run: a static marketing site built by four parallel subagents, followed by two orchestrator-side reconciliation/tuning rounds driven by terse numbered user feedback. This file is also the fallback home for lessons that exceed the 100K SKILL.md cap or belong to protected skills.
 
 ## 1. Count-asserted batch edit pattern
