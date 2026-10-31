@@ -71,3 +71,7 @@ Claim from leaf 03 confirmed against the snapshot: the pre-refactor HP Common Pi
 - HP SKILL.md: Step 5 authoring rule added; compensated by compressing the delegate_task shape line (canon C1-Dispatch already carries it). Budget holds: 41,817/42,000.
 - Gates after changes: all four EXIT 0 (gate-dialect-trace.txt); scanner fixture ALL TREES COMPLIANT.
 - Char deltas: canon 4,317->5,215; leaf-template 4,984->4,993; master-template 6,714->7,238 (cap 8,000).
+
+## 12. Tier-2 decision (2026-10-26, owner)
+
+Protocol-as-reference (leaf docs carry a marker; constant blocks injected at dispatch) is REJECTED by owner decision. Leaf documents keep protocol blocks inline. Audit self-containment and drift visibility outrank the ~22-44K/token-per-tree saving. Issue #1 comment records the closure; no skill changes needed.
